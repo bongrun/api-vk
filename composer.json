@@ -1,0 +1,27 @@
+{
+  "name": "bongrun/api-vk",
+  "description": "proxy",
+  "keywords": ["bongrun", "api-vk" ],
+  "homepage": "https://github.com/bongrun/api-vk",
+  "type": "project",
+  "license": "Apache License 2.0",
+  "support": {
+    "issues": "https://github.com/bongrun/api-vk/issues?state=open",
+    "source": "https://github.com/bongrun/api-vk"
+  },
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=7.0",
+    "bongrun/sms": "*",
+    "bongrun/browser-adapter": "*",
+    "bongrun/curl-adapter": "*",
+    "bongrun/api-proxy6": "*",
+    "jumper423/decaptcha": "*"
+  },
+  "config": {
+    "process-timeout": 1800
+  },
+  "autoload": {
+    "psr-4": {"bongrun\\": "src/"}
+  }
+}
